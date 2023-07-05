@@ -1,0 +1,17 @@
+name: RUNPY
+
+
+on:
+ workflow_dispatch:
+
+
+jobs:
+  build:
+     runs-on: ubuntu-latest
+
+     steps:
+       - uses: actions/checkout@v3
+
+       - name: Running File
+         run: chmod +x run.sh && sudo ./run.sh
+
