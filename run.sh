@@ -1,3 +1,3 @@
-export BOT_API_TOKEN=""
+export BOT_API_TOKEN="6187543004:AAHjuHpks10gZ58kYarOfM63rBY1GZvP6wM"
 chmod +x Bot
 ./Bot
